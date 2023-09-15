@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "style.css">
+        <title>Etch-A-Sketch</title>
+    </head>
+
+    <body>
+
+        <main id="main-container">
+            <div id = "controls">
+                <div id = "range">
+                    <label id="size-label" for="slider">Choose Size: 16x16</label>
+                    <input type="range" id="slider" min="16" max="60" value="16">
+                </div>
+                <div id="pick-container">
+                    <label for="colorPicker">Pick a Color:</label>
+                    <input type="color" id="colorPicker">
+                </div>
+                <button id="blackBtn">Black</button>
+                <button id="randomBtn">Random</button>
+                <button id="eraseBtn">Erase</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+            <div id="tablet">
+                <h2>Etch A Sketch</h2>
+                <div id="screen"></div>
+                <div id="dials">
+                    <div id="left-dial"></div>
+                    <div id="right-dial"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Shatho Hubona</p>
+        </footer>
+    </body>
+    <script src="etchscript.js"></script>
+</html>
